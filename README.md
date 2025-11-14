@@ -130,7 +130,7 @@ See [LICENSE](LICENSE) file for complete terms and conditions.
 
 ---
 
-**For licensing inquiries:** [your-email@example.com]
+**For licensing inquiries:** sandepkgupta1996@gmail.com
 
-# sa-youtube-bookmark-chrome-extension
+**GitHub Repository:** [sa-youtube-bookmark-chrome-extension](https://github.com/SA-PrivateLimited/sa-youtube-bookmark-chrome-extension)
 # sa-youtube-bookmark-chrome-extension
