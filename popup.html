@@ -1,0 +1,53 @@
+<!--
+  YouTube Timestamp Bookmarker - Popup UI
+  
+  Copyright (c) 2024 Sandeep Gupta
+  All rights reserved.
+  
+  This software is proprietary and confidential. Unauthorized copying,
+  modification, distribution, or use of this software, via any medium,
+  is strictly prohibited without the express written permission of the owner.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Timestamp Bookmarks</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📑 YouTube Bookmarks</h1>
+      <p class="subtitle">Manage your video timestamps</p>
+    </header>
+
+    <div id="not-youtube" class="message">
+      <p>Please navigate to a YouTube video page to use this extension.</p>
+    </div>
+
+    <div id="main-content" class="hidden">
+      <div class="video-info">
+        <h2 id="video-title">Video Title</h2>
+        <p id="video-url" class="video-url"></p>
+      </div>
+
+      <div class="bookmarks-section">
+        <div class="section-header">
+          <h3>Bookmarks</h3>
+          <button id="refresh-btn" class="icon-btn" title="Refresh">🔄</button>
+        </div>
+        <div id="bookmarks-list" class="bookmarks-list">
+          <p class="empty-state">No bookmarks yet. Click the bookmark button on the video page to add one!</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="copyright">© 2024 Sandeep Gupta. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+/**
+ * YouTube Timestamp Bookmarker - Content Styles
+ * 
+ * Copyright (c) 2024 Sandeep Gupta
+ * All rights reserved.
+ */
+
+.yt-bookmark-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  border: none !important;
+  padding: 8px 16px !important;
+  border-radius: 20px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  margin: 0 8px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  line-height: normal !important;
+  z-index: 9999 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  min-width: 120px !important;
+  height: auto !important;
+}
+
+.yt-bookmark-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.yt-bookmark-button:active {
+  transform: translateY(0);
+}
+
